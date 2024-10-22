@@ -1,16 +1,24 @@
-## Hi there 👋
+# Sean Dinwiddie
 
-<!--
-**seandinwiddie/seandinwiddie** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Hello! 👋
 
-Here are some ideas to get you started:
+I'm Sean Paul Payne Dinwiddie, a passionate software engineer with a love for creating innovative solutions. Welcome to my GitHub profile!
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## About Me
+
+- Full Stack Developer with expertise in Redux Toolkit, React.js, and Expo
+- Enthusiastic about Web and Mobile Development
+- Always eager to explore new technologies and frameworks
+
+## Skills
+
+- Frontend: React.js, Redux.js, TypeScript
+- Backend: Node.js, Express
+- Databases: MongoDB, PostgreSQL, SQLite
+- Version Control: Git
+
+## Get in Touch
+
+Feel free to reach out to me at [seandinwiddie@gmail.com](mailto:seandinwiddie@gmail.com)
+
+Let's build something amazing together! 🚀💻
