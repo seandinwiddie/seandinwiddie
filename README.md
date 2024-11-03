@@ -1,44 +1,69 @@
-# 🚀 Sean Dinwiddie: The Cosmic Code Crusader 🚀
+# 🚀 Sean Dinwiddie | Full Stack Software Engineer
 
-Greetings, fellow space travelers! 👽
+## About Me
+Hey there! 👋 I'm Sean, a Full Stack Developer with over two decades of experience crafting digital solutions. I specialize in building scalable, user-centric applications that make a real impact.
 
-Welcome to the intergalactic headquarters of Sean Paul Payne Dinwiddie, your friendly neighborhood software sorcerer 🔮. Buckle up, because we're about to embark on a journey through the cosmos of code! 🚀
+### 🎯 Core Focus
+- React & Redux Toolkit Architecture
+- TypeScript Implementation
+- Mobile Development with React Native
+- Full Stack Solutions
 
-## 🌠 About Me
+## 💻 Technical Arsenal
 
-I'm a Full Stack Developer extraordinaire, specializing in:
+### Frontend
+- React.js & Redux Toolkit
+- TypeScript
+- Next.js
+- React Native & Expo
+- Tailwind CSS
 
-- React.js: The force behind your favorite web apps
-- Redux Toolkit: State management mastery
-- Expo: Mobile development wizardry
-- TypeScript: The secret ingredient in your code cocktail
+### Backend
+- Node.js
+- Express.js
+- Laravel
+- Ruby
+- Go
+- Python
+- PHP
+- Haskell
+- RESTful APIs
+- GraphQL
 
-When I'm not saving the universe one line of code at a time, you can find me exploring the latest tech trends or perfecting my coding ninja skills 🥶.
+### Database & Tools
+- PostgreSQL
+- MongoDB
+- SQLite
+- Git & GitHub
+- CI/CD Pipelines
 
-## 🛠️ Skills
+## 🌟 Recent Achievements
+- Increased user engagement by 40% through scalable portal development
+- Reduced support tickets by 25% via UI performance optimization
+- Implemented Redux Toolkit for state management, reducing frontend bugs by 60%
 
-My cosmic toolbox contains:
+## 🎯 Current Focus
+- Exploring Machine Learning applications
+- Diving deeper into Blockchain technology
+- Mastering Vim workflows
+- Optimizing performance in large-scale applications
 
-- Frontend: React.js, Redux.js, TypeScript - The holy trinity of web development
-- Backend: Node.js, Express - Serving up server-side magic
-- Databases: MongoDB, PostgreSQL, SQLite - Storing secrets of the universe
-- Version Control: Git - Time-traveling through code history
-
-## 🚫 Challenges
-
-Currently tackling:
-
-- Conquering the realm of Machine Learning
-- Exploring the mysteries of Blockchain
-- Perfecting my Vim fu
-
-## 📞 Get in Touch
-
-Want to collaborate on a galactic project or just say hi? Reach me at [seandinwiddie@gmail.com](mailto:seandinwiddie@gmail.com).
+## 📫 Let's Connect!
+Want to collaborate on a galactic project or just say hi? Reach 
+me at
+- Email: [seandinwiddie@gmail.com](mailto:seandinwiddie@gmail.com)
+- Website: [sdin.dev](https://sdin.dev)
+- LinkedIn: [Connect with me](https://www.linkedin.com/in/seandinwiddie)
+- Twitter: [@seandinwiddie](https://twitter.com/seandinwiddie)
 
 Let's create some cosmic code together! 🚀💻
+
+## 🛠️ Portfolio Highlights
+Check out my latest work at [Portfolio.sdin.dev](https://portfolio.sdin.dev)
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/seandinwiddie?style=social)](https://twitter.com/seandinwiddie)
 [![LinkedIn Connect](https://img.shields.io/badge/Connect-blue?logo=linkedin&style=social)](https://www.linkedin.com/in/seandinwiddie)
 
+
 Stay curious, keep coding! 🚀👽
+> "Clean code always looks like it was written by someone who cares." - Robert C. Martin
