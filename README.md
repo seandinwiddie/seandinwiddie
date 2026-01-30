@@ -57,7 +57,7 @@ Node.js | FastAPI | Express.js | Laravel | Python | Go | Haskell
 
 ### Data & Infrastructure
 ```
-PostgreSQL | MongoDB | Redis | AWS | Docker | CI/CD Pipelines
+PostgreSQL | NileDB | Neon | MongoDB | Redis | AWS | Docker | CI/CD Pipelines
 ```
 
 ### Architecture Paradigms
