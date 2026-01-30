@@ -71,10 +71,11 @@ Functional Programming | Monads | DDD | Category Theory | BDD/TDD
 
 `Dócs_Óutput // Knówledge_Báse`
 
-- **Functional Programming with AI Quickstart Guide** — 160+ page guide on architecting AI systems with TypeScript and Effect.ts
-- **Functional Programming & TypeScript Curriculum** — 18-module course teaching Category Theory and Monads
-- **Enterprise Architecture Standards** — FP Maintenance Strategy for scalable apps using Redux Toolkit
-- **User Stories → BDD → FRP Workflow** — Deterministic, user-centric development methodology
+- **[Functional Programming with AI Quickstart Guide](https://seandinwiddie.gumroad.com/l/plmkbi)** — 160+ page guide on architecting AI systems with TypeScript and Effect.ts
+- **[Functional Programming & TypeScript Curriculum](https://github.com/seandinwiddie/lectures/blob/main/index.md)** — 18-module course teaching Category Theory and Monads
+- **[FP Maintenance Strategy](https://github.com/seandinwiddie/lectures/blob/main/technology-maintainance.md)** — Enterprise Architecture Standards for scalable apps using Redux Toolkit
+- **[Modern Web Development Education](https://www.skool.com/functional-programming-8421)** — Content on Performance and State Management
+- **[User Stories → BDD → FRP Workflow](https://seandinwiddie.com/community/)** — Deterministic, user-centric development methodology
 
 ---
 
