@@ -37,7 +37,7 @@ end
 # The next line updates PATH for the Google Cloud SDK.
 # if [ -f '/usr/local/share/google-cloud-sdk/path.fish.inc' ]; . '/usr/local/share/google-cloud-sdk/path.fish.inc'; end
 # export GOOGLE_CLOUD_PROJECT="YOUR_PROJECT_ID"
-# set -x GEMINI_API_KEY "YOUR_GEMINI_API_KEY"
+# API Keys are stored securely in ~/.config/fish/conf.d/secrets.fish
 
 # Added by Antigravity
 fish_add_path /Users/seandinwiddie/.antigravity/antigravity/bin

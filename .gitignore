@@ -1,2 +1,4 @@
-
 .DS_Store
+replacements.txt
+secrets.fish
+*.secret.fish
