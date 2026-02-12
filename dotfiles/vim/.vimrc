@@ -13,7 +13,7 @@ set encoding=utf-8
 syntax on
 "set syntax=whitespace
 set list
-set listchars=tab:→\ ,space:·,nbsp:␣,trail:•",eol:¶,precedes:«,extends:»
+set listchars=tab:→\ ,space:·,nbsp:␣,trail:•,eol:¶,precedes:«,extends:»
 "set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
 "set listchars=nbsp:☠,tab:▸␣
 
