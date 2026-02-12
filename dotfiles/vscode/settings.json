@@ -24,6 +24,7 @@
     "editor.insertSpaces": true,
     "editor.cursorBlinking": "blink",
     "editor.renderControlCharacters": true,
+    "editor.renderLineHighlight": "all",
     "workbench.secondarySideBar.defaultVisibility": "hidden",
     "github.copilot.advanced": {},
     "github.copilot.nextEditSuggestions.enabled": true

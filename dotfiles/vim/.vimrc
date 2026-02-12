@@ -26,8 +26,7 @@ set expandtab
 set shiftwidth=2
 
 set nu
-
-"set cursorline
+set cursorline
 
 cd ~/documents/github
 "autocmd VimEnter * NERDTree | wincmd p
