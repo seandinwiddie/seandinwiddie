@@ -2,6 +2,7 @@ source $VIMRUNTIME/defaults.vim
 
 call plug#begin('~/.vim/plugged')
 Plug 'ayu-theme/ayu-vim'
+Plug 'preservim/nerdtree'
 call plug#end()
 
 "if  has( 'mouse' )
@@ -29,13 +30,13 @@ set nu
 set cursorline
 
 cd ~/documents/github
-"autocmd VimEnter * NERDTree | wincmd p
+autocmd VimEnter * NERDTree | wincmd p
 
 set termguicolors     " enable true colors support
 let ayucolor="mirage" " for mirage version of theme
 colorscheme ayu
 
-set guifont=Roboto\ Mono\ for\ Powerline:h15
+set guifont=Dank\ Mono:h15
 
 "if has("gui_running")
   " GUI is running or is about to start.
