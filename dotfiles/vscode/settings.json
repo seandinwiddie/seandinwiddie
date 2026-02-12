@@ -20,6 +20,10 @@
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "editor.renderWhitespace": "all",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.cursorBlinking": "blink",
+    "editor.renderControlCharacters": true,
     "workbench.secondarySideBar.defaultVisibility": "hidden",
     "github.copilot.advanced": {},
     "github.copilot.nextEditSuggestions.enabled": true
