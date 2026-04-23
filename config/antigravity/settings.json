@@ -1,0 +1,32 @@
+{
+    "editor.inlineSuggest.enabled": true,
+    "cody.serverEndpoint": "https://sourcegraph.com/",
+    "workbench.startupEditor": "none",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false
+    },
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.activityBar.location": "hidden",
+    "workbench.colorTheme": "Ayu Mirage Bordered",
+    "workbench.iconTheme": "ayu",
+    "editor.fontFamily": "dank mono, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.renderWhitespace": "all",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.cursorBlinking": "blink",
+    "editor.renderControlCharacters": true,
+    "editor.renderLineHighlight": "all",
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "github.copilot.advanced": {},
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "terminal.integrated.fontFamily": "MesloLGM Nerd Font"
+}

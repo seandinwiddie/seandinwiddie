@@ -27,5 +27,6 @@
     "editor.renderLineHighlight": "all",
     "workbench.secondarySideBar.defaultVisibility": "hidden",
     "github.copilot.advanced": {},
-    "github.copilot.nextEditSuggestions.enabled": true
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "terminal.integrated.fontFamily": "MesloLGM Nerd Font"
 }
