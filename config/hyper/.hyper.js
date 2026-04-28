@@ -141,17 +141,17 @@ module.exports = {
         //"hyper-statusline-extended",
         //"hyper-history",
         "hyperterm-cursor",
-        "hyper-save-windowstate",
+        // "hyper-save-windowstate",
         "hyperpower",
         "hyper-postprocessing",
         // "hyper-systray",
         // "hyper-opacity",
         // "hyper-tab-icons",
-        //        "hyperborder",
-        "hyper-one-dark",
+        "hyperborder",
+        // "hyper-one-dark",
         "hyper-font-ligatures",
         "hyperline",
-        "hyper-dracula"
+        // "hyper-dracula"
     ],
     // in development, you can create a directory under
     // `~/.hyper_plugins/local/` and include it here
