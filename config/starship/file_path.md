@@ -1,2 +1,2 @@
-/Users/seandinwiddie/.config/starship.toml
-C:\Users\Sean Dinwiddie\.config\starship.toml
+macOS: ~/.config/starship.toml
+Windows (WSL): ~/.config/starship.toml (inside WSL Ubuntu)

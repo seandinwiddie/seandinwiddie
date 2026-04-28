@@ -4,8 +4,9 @@
 
 Write-Host "=== Fish Shell WSL Setup ===" -ForegroundColor Cyan
 
-# Check if WSL Ubuntu is available
+# Check if WSL Ubuntu is available (handle UTF-16 output from wsl --list)
 $wslList = wsl --list --quiet 2>&1 | Out-String
+$wslList = $wslList -replace "`0", ""  # Strip null bytes from UTF-16
 if ($wslList -notmatch "Ubuntu") {
     Write-Host "ERROR: Ubuntu is not installed in WSL. Run 'wsl --install -d Ubuntu' first." -ForegroundColor Red
     exit 1
@@ -21,19 +22,17 @@ Write-Host "Setting up Fish config..." -ForegroundColor Yellow
 # Create fish config directory in WSL
 wsl -d Ubuntu -- bash -c "mkdir -p ~/.config/fish"
 
-# Copy config.fish from the dotfiles repo
-$fishConfig = Get-Content "$PSScriptRoot\config.fish" -Raw
-$fishConfig = $fishConfig -replace "`r`n", "`n"
-$fishConfig | wsl -d Ubuntu -- bash -c "cat > ~/.config/fish/config.fish"
+# Copy config.fish via /mnt/c/ to preserve UTF-8 encoding (Nerd Font glyphs)
+$repoRoot = (Split-Path $PSScriptRoot -Parent)
+$wslRepoRoot = "/mnt/c" + ($repoRoot -replace "^C:", "" -replace "\\", "/")
+wsl -d Ubuntu -- bash -c "cp '$wslRepoRoot/fish/config.fish' ~/.config/fish/config.fish && sed -i 's/\r//' ~/.config/fish/config.fish"
 
 Write-Host "Setting up Starship config..." -ForegroundColor Yellow
-# Copy starship.toml
-$starshipConfig = Get-Content "$PSScriptRoot\..\starship\starship.toml" -Raw
-$starshipConfig = $starshipConfig -replace "`r`n", "`n"
-$starshipConfig | wsl -d Ubuntu -- bash -c "cat > ~/.config/starship.toml"
+# Copy starship.toml via /mnt/c/ to preserve UTF-8 encoding (Nerd Font glyphs)
+wsl -d Ubuntu -- bash -c "cp '$wslRepoRoot/starship/starship.toml' ~/.config/starship.toml && sed -i 's/\r//' ~/.config/starship.toml"
 
 Write-Host "Setting Fish as default shell in WSL..." -ForegroundColor Yellow
-wsl -d Ubuntu -- bash -c "sudo chsh -s /usr/bin/fish \$(whoami)"
+wsl -d Ubuntu -u root -- chsh -s /usr/bin/fish $(wsl -d Ubuntu -- whoami)
 
 Write-Host ""
 Write-Host "=== Setup Complete! ===" -ForegroundColor Green

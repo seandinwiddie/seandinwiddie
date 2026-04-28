@@ -1,2 +1,2 @@
-/Users/seandinwiddie/.config/fish/config.fish
-C:\Users\Sean Dinwiddie\.config\fish\config.fish
+macOS: ~/.config/fish/config.fish
+Windows (WSL): ~/.config/fish/config.fish (inside WSL Ubuntu)

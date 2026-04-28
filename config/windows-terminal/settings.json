@@ -1,46 +1,36 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": [],
+    "actions": [
+        {
+            "command": {
+                "action": "sendInput",
+                "input": "\u001b\r"
+            },
+            "id": "User.sendInput.8F63D3A9"
+        }
+    ],
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-    "keybindings": 
-    [
-        {
-            "id": "Terminal.CopyToClipboard",
-            "keys": "ctrl+c"
-        },
-        {
-            "id": "Terminal.PasteFromClipboard",
-            "keys": "ctrl+v"
-        },
-        {
-            "id": "Terminal.FindText",
-            "keys": "ctrl+shift+f"
-        },
-        {
-            "id": "Terminal.DuplicatePaneAuto",
-            "keys": "alt+shift+d"
-        }
+    "defaultProfile": "{d0219546-43aa-50bb-b737-af09381a5b89}",
+    "keybindings": [
+        { "id": "Terminal.DuplicatePaneAuto", "keys": "alt+shift+d" },
+        { "id": "User.sendInput.8F63D3A9", "keys": "shift+enter" },
+        { "id": "Terminal.CopyToClipboard", "keys": "ctrl+c" },
+        { "id": "Terminal.FindText", "keys": "ctrl+shift+f" },
+        { "id": "Terminal.PasteFromClipboard", "keys": "ctrl+v" }
     ],
-    "newTabMenu": 
-    [
-        {
-            "type": "remainingProfiles"
-        }
+    "newTabMenu": [
+        { "type": "remainingProfiles" }
     ],
-    "profiles": 
-    {
-        "defaults": 
-        {
-            "font": 
-            {
-                "face": "MesloLGM Nerd Font"
-            }
+    "profiles": {
+        "defaults": {
+            "font": {
+                "face": "Dank Mono"
+            },
+            "colorScheme": "Ayu Mirage"
         },
-        "list": 
-        [
+        "list": [
             {
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -70,9 +60,51 @@
                 "hidden": false,
                 "name": "PowerShell",
                 "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "guid": "{d0219546-43aa-50bb-b737-af09381a5b89}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "guid": "{9373cb69-03aa-5245-a8f2-5afd06f273b2}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{73f258ef-a37b-596d-b696-bc4c711fee89}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },
-    "schemes": [],
+    "schemes": [
+        {
+            "name": "Ayu Mirage",
+            "background": "#1F2430",
+            "foreground": "#CBCCC6",
+            "cursorColor": "#FFCC66",
+            "selectionBackground": "#33415E",
+            "black": "#191E2A",
+            "red": "#ED8274",
+            "green": "#A6CC70",
+            "yellow": "#FAD07B",
+            "blue": "#6DCBFA",
+            "purple": "#CFBAFA",
+            "cyan": "#90E1C6",
+            "white": "#C7C7C7",
+            "brightBlack": "#686868",
+            "brightRed": "#F28779",
+            "brightGreen": "#BAE67E",
+            "brightYellow": "#FFD580",
+            "brightBlue": "#73D0FF",
+            "brightPurple": "#D4BFFF",
+            "brightCyan": "#95E6CB",
+            "brightWhite": "#FFFFFF"
+        }
+    ],
     "themes": []
 }
