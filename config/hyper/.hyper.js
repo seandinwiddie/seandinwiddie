@@ -92,10 +92,10 @@ module.exports = {
         //
         // Cygwin
         // - Example: `C:\\cygwin64\\bin\\bash.exe`
-        shell: '',
+        shell: 'C:\\Windows\\System32\\wsl.exe',
         // for setting shell arguments (i.e. for using interactive shellArgs: `['-i']`)
         // by default `['--login']` will be used
-        shellArgs: ['--login'],
+        shellArgs: ['--cd', '/mnt/c/Users/Sean Dinwiddie/GitHub'],
         // for environment variables
         env: {},
         // Supported Options:
